@@ -3,8 +3,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-url = "https://vk.com/audios515257817?section=all"           # ВМЕСТО ЦИФР НУЖНЫ ЦИФРЫ ВАШЕГО АУДИО
-
+url = "https://vk.com/audios515257817?section=all"           # ВМЕСТО ТЕКУЩИХ ЦИФР НУЖНЫ ЦИФРЫ ПЛЕЙЛИСТА ВАШЕГО ПРОФИЛЯ
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
 
